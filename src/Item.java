@@ -41,13 +41,11 @@ public class Item {
 
 	public void setFornecedor(String fornecedor) {
 		this.fornecedor = fornecedor;
-		// teste 222334
 	}
 
 
 	public double getPreco() {
 		return Preco;
-		// jhdvfjh 22 //
 	}
 
 
