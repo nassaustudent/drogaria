@@ -46,7 +46,7 @@ public class Item {
 
 	public double getPreco() {
 		return Preco;
-		// jhdvfjh
+		// jhdvfjh 22
 	}
 
 
