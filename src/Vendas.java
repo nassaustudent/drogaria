@@ -11,6 +11,7 @@ public class Vendas extends Item {
 
 	public double getItem() {
 		return item;
+		// jhgjhgf
 	}
 
 	public void setItem(double item) {
