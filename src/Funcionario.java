@@ -2,6 +2,7 @@ public class Funcionario extends Pessoa {
 	private double salario; 
 	private double salarioFinal; 
 	private double salarioBase;
+	private double gratificacao;
 	
 	public Funcionario(String nome, String cpf, String endereco, String telefone, double comissao, double salarioBase) {
 		super(nome, cpf, endereco, telefone);
@@ -14,17 +15,14 @@ public class Funcionario extends Pessoa {
 
 	public void setSalarioBase(double salarioBase) {
 		this.salarioBase = salarioBase;
-		System.out.println("");
 	}	
 
-	//public double SalarioFinal() {
-		//return salarioBase + gratificacao();
-	//}
+	public void setGratificacao(double valor) {
+		gratificacao = gratificacao + valor;
+	}
 	
-	//private double gratificacao() {
-		//double gratificacaoBase = 1.24 * funcao;
-		//return getTempoDeServico() * gratificacaoBase;
-	//}
-	
+	public double salario(){
+		return salarioBase + gratificacao;
+	}
 	
 }

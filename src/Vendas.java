@@ -23,9 +23,5 @@ public class Vendas extends Item {
 
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
-		//verificar a quantidade
-	}
-
-	
-	
+	}	
 }
